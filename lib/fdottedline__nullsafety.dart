@@ -143,7 +143,7 @@ class _FDottedLineState extends State<FDottedLine> {
   }
 
   void tryToGetChildSize() {
-    WidgetsBinding.instance!.addPostFrameCallback((timeStamp) {
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       try {
         RenderBox box = childKey.currentContext!.findRenderObject() as RenderBox;
         double tempWidth = box.size.width;

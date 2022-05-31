@@ -1,7 +1,7 @@
 name: fdottedline_nullsafety
-description: Help developers realize the dotted line in the simplest way.
-version: 2.0.0
-homepage: https://github.com/Fliggy-Mobile/fdottedline
+description: Flutter3 is now fully supported
+version: 2.0.1
+homepage: https://github.com/mdddj/fdottedline
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
